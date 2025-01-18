@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "question": "What is 2 + 2?",
+      "details": "Basic math question.",
+      "choices": {
+        "choice1": "3",
+        "choice2": "4",
+        "choice3": "5",
+        "choice4": "6"
+      },
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the capital of France?",
+      "details": "Geography question.",
+      "choices": {
+        "choice1": "Berlin",
+        "choice2": "Madrid",
+        "choice3": "Paris",
+        "choice4": "Rome"
+      },
+      "correctAnswer": 3
+    }
+  ]
+}
