@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "What is 2 + 2?",
-      "details": "Basic math question.",
+      "details": "Basic math question naja.",
       "choices": {
         "choice1": "3",
         "choice2": "4",
@@ -12,7 +12,7 @@
       "correctAnswer": 2
     },
     {
-      "question": "What is the capital of France?",
+      "question": "What is the capital of Thailand?",
       "details": "Geography question.",
       "choices": {
         "choice1": "Berlin",
