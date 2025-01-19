@@ -1,28 +1,52 @@
 {
   "questions": [
     {
-      "question": "question1",
-      "details": "1+1",
+      "question": "Question 1",
+      "details": "What is 12 + 15",
+      "choices": {
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "27",
+        "choice4": "12"
+      },
+      "correctAnswer": 3,
+      "topic": "Addition"
+    },
+    {
+      "question": "Question 2",
+      "details": "What is 30 + 12",
+      "choices": {
+        "choice1": "42",
+        "choice2": "12",
+        "choice3": "32",
+        "choice4": "122"
+      },
+      "correctAnswer": 1,
+      "topic": "Addition"
+    },
+    {
+      "question": "Question 3",
+      "details": "How Many Sides Does Triangle Have",
+      "choices": {
+        "choice1": "3",
+        "choice2": "2",
+        "choice3": "1",
+        "choice4": "4"
+      },
+      "correctAnswer": 1,
+      "topic": "Shapes"
+    },
+    {
+      "question": "Bonus Question",
+      "details": "Rate this game out of 4",
       "choices": {
         "choice1": "1",
         "choice2": "2",
         "choice3": "3",
         "choice4": "4"
       },
-      "correctAnswer": 1,
-      "topic": "Fractions"
-    },
-    {
-      "question": "question 2",
-      "details": "2+1",
-      "choices": {
-        "choice1": "3",
-        "choice2": "1",
-        "choice3": "4",
-        "choice4": "2"
-      },
-      "correctAnswer": 1,
-      "topic": "Fractions"
+      "correctAnswer": 4,
+      "topic": "Bonus"
     }
   ]
 }
