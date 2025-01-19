@@ -1,19 +1,8 @@
 {
   "questions": [
     {
-      "question": "amdaskm",
-      "details": "fdsfkodsok",
-      "choices": {
-        "choice1": "1",
-        "choice2": "2",
-        "choice3": "3",
-        "choice4": "4"
-      },
-      "correctAnswer": 1
-    },
-    {
-      "question": "test2",
-      "details": "1212",
+      "question": "1",
+      "details": "123",
       "choices": {
         "choice1": "1",
         "choice2": "2",
