@@ -1,26 +1,26 @@
 {
   "questions": [
     {
-      "question": "Question 1",
-      "details": "Hello World",
+      "question": "amdaskm",
+      "details": "fdsfkodsok",
       "choices": {
-        "choice1": "3",
-        "choice2": "4",
-        "choice3": "5",
-        "choice4": "6"
+        "choice1": "1",
+        "choice2": "2",
+        "choice3": "3",
+        "choice4": "4"
       },
-      "correctAnswer": 2
+      "correctAnswer": 1
     },
     {
-      "question": "Question 2",
-      "details": "What is the capital of Thailand.",
+      "question": "test2",
+      "details": "1212",
       "choices": {
-        "choice1": "Berlin",
-        "choice2": "Madrid",
-        "choice3": "Paris",
-        "choice4": "Rome"
+        "choice1": "1",
+        "choice2": "2",
+        "choice3": "3",
+        "choice4": "4"
       },
-      "correctAnswer": 3
+      "correctAnswer": 1
     }
   ]
 }
