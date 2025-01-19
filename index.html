@@ -79,7 +79,6 @@
         </div>
         <button onclick="addQuestion()">Add Question</button>
         <button onclick="downloadJson()">Download JSON</button>
-        <button onclick="submitToGitHub()">Submit to GitHub</button>
     </div>
 
     <div id="questions-preview">
@@ -90,12 +89,8 @@
     <script>
         let questions = [];
 
-        const githubToken = 'ghp_yourPersonalAccessToken'; // Replace with your actual token
-        const owner = 'your-github-username'; // Replace with your GitHub username
-        const repo = 'YourRepoName'; // Replace with your repository name
-        const filePath = 'questions.json'; // File name in the repo
-
         function addQuestion() {
+            // Get input values
             const question = document.getElementById('question').value.trim();
             const details = document.getElementById('details').value.trim();
             const choice1 = document.getElementById('choice1').value.trim();
@@ -104,6 +99,7 @@
             const choice4 = document.getElementById('choice4').value.trim();
             const correctAnswer = parseInt(document.getElementById('correctAnswer').value);
 
+            // Validate inputs
             if (!question || !details || !choice1 || !choice2 || !choice3 || !choice4 || isNaN(correctAnswer)) {
                 alert("Please fill all fields correctly!");
                 return;
@@ -114,6 +110,7 @@
                 return;
             }
 
+            // Add question to the list
             questions.push({
                 question,
                 details,
@@ -121,12 +118,17 @@
                 correctAnswer
             });
 
+            // Update the question preview
             updatePreview();
+
+            // Clear form fields
             document.getElementById('form-container').querySelectorAll('input, textarea').forEach(input => input.value = "");
         }
 
         function deleteQuestion(index) {
+            // Remove question from the array
             questions.splice(index, 1);
+            // Update the preview
             updatePreview();
         }
 
@@ -153,6 +155,7 @@
                     <p><strong>Correct Answer:</strong> ${q.correctAnswer}</p>
                     <button class="delete-btn" onclick="deleteQuestion(${index})">Delete</button>
                 `;
+
                 questionsList.appendChild(questionDiv);
             });
         }
@@ -168,42 +171,6 @@
             link.href = URL.createObjectURL(jsonBlob);
             link.download = "question.json";
             link.click();
-        }
-
-        async function submitToGitHub() {
-            if (questions.length === 0) {
-                alert("No questions to upload!");
-                return;
-            }
-
-            const jsonData = JSON.stringify({ questions }, null, 2);
-            const base64Content = btoa(jsonData);
-
-            const payload = {
-                message: 'Add new questions',
-                content: base64Content
-            };
-
-            try {
-                const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`, {
-                    method: 'PUT',
-                    headers: {
-                        'Authorization': `token ${githubToken}`,
-                        'Accept': 'application/vnd.github.v3+json'
-                    },
-                    body: JSON.stringify(payload)
-                });
-
-                const result = await response.json();
-                if (response.ok) {
-                    alert('Questions uploaded successfully!');
-                } else {
-                    alert(`Error uploading file: ${result.message}`);
-                }
-            } catch (error) {
-                console.error('Error uploading file:', error);
-                alert('Failed to upload to GitHub');
-            }
         }
     </script>
 </body>
