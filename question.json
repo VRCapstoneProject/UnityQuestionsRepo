@@ -2,7 +2,7 @@
   "questions": [
     {
       "question": "Question 1",
-      "details": "What is 2 + 5?",
+      "details": "What is Number 3?",
       "choices": {
         "choice1": "3",
         "choice2": "4",
