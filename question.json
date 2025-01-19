@@ -2,14 +2,36 @@
   "questions": [
     {
       "question": "Question1",
-      "details": "1+1+1",
+      "details": "1+2+3",
       "choices": {
-        "choice1": "3",
+        "choice1": "1",
         "choice2": "2",
-        "choice3": "1",
-        "choice4": "0"
+        "choice3": "3",
+        "choice4": "4"
       },
       "correctAnswer": 1
+    },
+    {
+      "question": "Question 2",
+      "details": "2+1+2",
+      "choices": {
+        "choice1": "12",
+        "choice2": "1",
+        "choice3": "1",
+        "choice4": "2"
+      },
+      "correctAnswer": 3
+    },
+    {
+      "question": "Question 3",
+      "details": "123+133",
+      "choices": {
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "1",
+        "choice4": "2"
+      },
+      "correctAnswer": 4
     }
   ]
 }
