@@ -2,39 +2,123 @@
   "questions": [
     {
       "question": "Question 1",
-      "details": "What is 1 + 1",
+      "details": "What is 5 + 3?",
       "choices": {
-        "choice1": "2",
-        "choice2": "1",
-        "choice3": "3",
-        "choice4": "4"
-      },
-      "correctAnswer": 1,
-      "topic": "Addition"
-    },
-    {
-      "question": "Question 2",
-      "details": "What is 2 + 2",
-      "choices": {
-        "choice1": "2",
-        "choice2": "4",
-        "choice3": "3",
-        "choice4": "1"
+        "choice1": "7",
+        "choice2": "8",
+        "choice3": "9",
+        "choice4": "10"
       },
       "correctAnswer": 2,
       "topic": "Addition"
     },
     {
-      "question": "Question 3",
-      "details": "What is 3-3",
+      "question": "Question 2",
+      "details": "What is 10 - 4?",
       "choices": {
-        "choice1": "1",
-        "choice2": "2",
-        "choice3": "0",
-        "choice4": "3"
+        "choice1": "5",
+        "choice2": "6",
+        "choice3": "7",
+        "choice4": "8"
+      },
+      "correctAnswer": 2,
+      "topic": "Subtraction"
+    },
+    {
+      "question": "Question 3",
+      "details": "What is 4 × 3?",
+      "choices": {
+        "choice1": "10",
+        "choice2": "12",
+        "choice3": "14",
+        "choice4": "16"
+      },
+      "correctAnswer": 2,
+      "topic": "Multiplication"
+    },
+    {
+      "question": "Question 4",
+      "details": "What is 12 ÷ 4?",
+      "choices": {
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "4",
+        "choice4": "5"
+      },
+      "correctAnswer": 2,
+      "topic": "Division"
+    },
+    {
+      "question": "Question 5",
+      "details": "What is the shape of a ball?",
+      "choices": {
+        "choice1": "Square",
+        "choice2": "Circle",
+        "choice3": "Triangle",
+        "choice4": "Sphere"
+      },
+      "correctAnswer": 4,
+      "topic": "Basic Geometry"
+    },
+    {
+      "question": "Question 6",
+      "details": "What is 7 + 6?",
+      "choices": {
+        "choice1": "12",
+        "choice2": "13",
+        "choice3": "14",
+        "choice4": "15"
+      },
+      "correctAnswer": 2,
+      "topic": "Addition"
+    },
+    {
+      "question": "Question 7",
+      "details": "What is 15 - 7?",
+      "choices": {
+        "choice1": "6",
+        "choice2": "7",
+        "choice3": "8",
+        "choice4": "9"
       },
       "correctAnswer": 3,
       "topic": "Subtraction"
+    },
+    {
+      "question": "Question 8",
+      "details": "What is 5 × 4?",
+      "choices": {
+        "choice1": "15",
+        "choice2": "20",
+        "choice3": "25",
+        "choice4": "30"
+      },
+      "correctAnswer": 2,
+      "topic": "Multiplication"
+    },
+    {
+      "question": "Question 9",
+      "details": "What is 20 ÷ 5?",
+      "choices": {
+        "choice1": "3",
+        "choice2": "4",
+        "choice3": "5",
+        "choice4": "6"
+      },
+      "correctAnswer": 2,
+      "topic": "Division"
+    },
+    {
+      "question": "Question 10",
+      "details": "How many sides does a triangle have?",
+      "choices": {
+        "choice1": "2",
+        "choice2": "3",
+        "choice3": "4",
+        "choice4": "5"
+      },
+      "correctAnswer": 2,
+      "topic": "Basic Geometry"
     }
   ]
 }
