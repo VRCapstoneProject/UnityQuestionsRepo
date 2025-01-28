@@ -1,1 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <style>
+        /* Reset margin and padding for body and html */
+        /* Reset margin and padding for body and html */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            font-weight: bold; /* Make the font bold */
+        }
+
+        h1 {
+            color: #333;
+            font-size: 3rem;
+            text-align: center;
+            margin: 0;  /* Remove top margin to eliminate white space */
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            padding: 35px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .view-portal-btn {
+            position: absolute;
+            left: 20px;  /* Move the button to the right */
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            border-radius: 5px;
+            font-weight: bold;  /* Make the button text bold */
+        }
+
+        .view-portal-btn:hover {
+            background-color: #218838;
+        }
+
+        .leaderboard-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+            flex: 1 0 auto;
+        }
+
+        .leaderboard-entry {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .leaderboard-entry:last-child {
+            border-bottom: none;
+        }
+
+        .leaderboard-entry h2 {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .score {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .topic-scores {
+            margin-top: 10px;
+        }
+
+        .topic-scores p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .pagination {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .pagination button {
+            padding: 5px 10px;
+            margin: 0 5px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;  /* Smooth edges */
+        }
+
+        .pagination button:disabled {
+            background-color: #ccc;
+        }
+
+        .pagination span {
+            margin: 0 5px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Leaderboard
+        <button class="view-portal-btn" onclick="window.location.href = 'index.html';"> ← Back to Question Portal</button>
+    </h1>
+    <div class="leaderboard-container">
+        <div id="leaderboard-content"></div>
+        <div class="pagination">
+            <button id="prev-btn" onclick="changePage(-1)">Previous</button>
+            <span id="page-number"></span> <!-- Page number updated to show just the page number -->
+            <button id="next-btn" onclick="changePage(1)">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const PAT = 'EDIT_KEY_PLEASE';  // Add your personal access token here
+        const apiUrl = 'https://api.github.com/repos/VRCapstoneProject/UnityQuestionsRepo/contents/leaderboard.json';
+
+        let currentPage = 1;
+        const itemsPerPage = 6;
+        let leaderboardData = [];
+
+        function fetchLeaderboardData() {
+            fetch(apiUrl, {
+                method: 'GET',
+                headers: {
+                    'Authorization': `Bearer ${PAT}`,
+                    'Accept': 'application/vnd.github.v3.raw'
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                leaderboardData = data.entries || [];
+                renderLeaderboard();
+            })
+            .catch(error => {
+                console.error('Error fetching leaderboard data:', error);
+            });
+        }
+
+        function renderLeaderboard() {
+            const leaderboardContent = document.getElementById('leaderboard-content');
+            leaderboardContent.innerHTML = '';  // Clear existing content
+
+            const startIdx = (currentPage - 1) * itemsPerPage;
+            const endIdx = startIdx + itemsPerPage;
+            const pageEntries = leaderboardData.slice(startIdx, endIdx);
+
+            pageEntries.forEach(entry => {
+                const entryDiv = document.createElement('div');
+                entryDiv.classList.add('leaderboard-entry');
+
+                const name = document.createElement('h2');
+                name.textContent = entry.name;
+
+                const score = document.createElement('p');
+                score.classList.add('score');
+                score.textContent = `Score: ${entry.score}`;
+
+                const topicScoresDiv = document.createElement('div');
+                topicScoresDiv.classList.add('topic-scores');
+
+                const topicScores = JSON.parse(entry.topicScores).scores;
+                topicScores.forEach(topic => {
+                    const topicScore = document.createElement('p');
+                    topicScore.textContent = `${topic.topic}: ${topic.score} (${topic.scoreRatio})`;
+                    topicScoresDiv.appendChild(topicScore);
+                });
+
+                entryDiv.appendChild(name);
+                entryDiv.appendChild(score);
+                entryDiv.appendChild(topicScoresDiv);
+                leaderboardContent.appendChild(entryDiv);
+            });
+
+            // Update page number to show just the current page
+            document.getElementById('page-number').textContent = `${currentPage}`;
+            document.getElementById('prev-btn').disabled = currentPage === 1;
+            document.getElementById('next-btn').disabled = currentPage * itemsPerPage >= leaderboardData.length;
+        }
+
+        function changePage(direction) {
+            currentPage += direction;
+            renderLeaderboard();
+        }
+
+        // Fetch leaderboard data on page load
+        fetchLeaderboardData();
+    </script>
+</body>
+</html>
