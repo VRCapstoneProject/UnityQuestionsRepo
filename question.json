@@ -4,12 +4,12 @@
       "question": "Question 1",
       "details": "What is 5 + 3?",
       "choices": {
-        "choice1": "7",
-        "choice2": "8",
+        "choice1": "8",
+        "choice2": "7",
         "choice3": "9",
         "choice4": "10"
       },
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "topic": "Addition"
     },
     {
@@ -41,11 +41,11 @@
       "details": "What is 12 ÷ 4?",
       "choices": {
         "choice1": "2",
-        "choice2": "3",
-        "choice3": "4",
-        "choice4": "5"
+        "choice2": "23",
+        "choice3": "1",
+        "choice4": "3"
       },
-      "correctAnswer": 2,
+      "correctAnswer": 4,
       "topic": "Division"
     },
     {
@@ -64,12 +64,12 @@
       "question": "Question 6",
       "details": "What is 7 + 6?",
       "choices": {
-        "choice1": "12",
-        "choice2": "13",
+        "choice1": "13",
+        "choice2": "12",
         "choice3": "14",
         "choice4": "15"
       },
-      "correctAnswer": 2,
+      "correctAnswer": 1,
       "topic": "Addition"
     },
     {
@@ -85,16 +85,40 @@
       "topic": "Subtraction"
     },
     {
-      "question": "Question1",
-      "details": "1+1",
+      "question": "Question 8",
+      "details": "What is 5 × 4?",
       "choices": {
-        "choice1": "1",
-        "choice2": "2",
-        "choice3": "3",
-        "choice4": "4"
+        "choice1": "15",
+        "choice2": "20",
+        "choice3": "25",
+        "choice4": "30"
       },
       "correctAnswer": 2,
-      "topic": "Addition"
+      "topic": "Multiplication"
+    },
+    {
+      "question": "Question 9",
+      "details": "What is 20 ÷ 5?",
+      "choices": {
+        "choice1": "3",
+        "choice2": "2",
+        "choice3": "4",
+        "choice4": "6"
+      },
+      "correctAnswer": 3,
+      "topic": "Division"
+    },
+    {
+      "question": "Question 10",
+      "details": "How many sides does a triangle have?",
+      "choices": {
+        "choice1": "2",
+        "choice2": "21",
+        "choice3": "4",
+        "choice4": "3"
+      },
+      "correctAnswer": 4,
+      "topic": "Basic Geometry"
     }
   ]
 }
