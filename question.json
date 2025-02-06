@@ -1,28 +1,124 @@
 {
   "questions": [
     {
-      "question": "1",
-      "details": "1",
+      "question": "question1",
+      "details": "5 + 3",
       "choices": {
-        "choice1": "12",
-        "choice2": "1",
-        "choice3": "2",
-        "choice4": "1"
+        "choice1": "7",
+        "choice2": "8",
+        "choice3": "9",
+        "choice4": "6"
       },
-      "correctAnswer": 1,
-      "topic": "1212"
+      "correctAnswer": 2,
+      "topic": "Addition"
     },
     {
-      "question": "Question 2",
-      "details": "2+2 = ?",
+      "question": "question2",
+      "details": "9 - 4",
       "choices": {
-        "choice1": "4",
-        "choice2": "1",
-        "choice3": "2",
-        "choice4": "3"
+        "choice1": "3",
+        "choice2": "4",
+        "choice3": "5",
+        "choice4": "6"
+      },
+      "correctAnswer": 3,
+      "topic": "Subtraction"
+    },
+    {
+      "question": "question3",
+      "details": "2 × 6",
+      "choices": {
+        "choice1": "8",
+        "choice2": "10",
+        "choice3": "12",
+        "choice4": "14"
+      },
+      "correctAnswer": 3,
+      "topic": "Multiplication"
+    },
+    {
+      "question": "question4",
+      "details": "16 ÷ 4",
+      "choices": {
+        "choice1": "3",
+        "choice2": "5",
+        "choice3": "4",
+        "choice4": "6"
+      },
+      "correctAnswer": 3,
+      "topic": "Division"
+    },
+    {
+      "question": "question5",
+      "details": "3/4 + 1/4",
+      "choices": {
+        "choice1": "1",
+        "choice2": "3/4",
+        "choice3": "4/4",
+        "choice4": "1/2"
+      },
+      "correctAnswer": 3,
+      "topic": "Fractions"
+    },
+    {
+      "question": "question6",
+      "details": "7 + 2 × 3",
+      "choices": {
+        "choice1": "27",
+        "choice2": "13",
+        "choice3": "21",
+        "choice4": "9"
+      },
+      "correctAnswer": 2,
+      "topic": "Order of Operations"
+    },
+    {
+      "question": "question7",
+      "details": "Find the missing number: 5 + ? = 12",
+      "choices": {
+        "choice1": "5",
+        "choice2": "6",
+        "choice3": "7",
+        "choice4": "8"
+      },
+      "correctAnswer": 3,
+      "topic": "Algebra"
+    },
+    {
+      "question": "question8",
+      "details": "If a square has a side length of 4, what is its area?",
+      "choices": {
+        "choice1": "8",
+        "choice2": "12",
+        "choice3": "16",
+        "choice4": "20"
+      },
+      "correctAnswer": 3,
+      "topic": "Geometry"
+    },
+    {
+      "question": "question9",
+      "details": "What is 10% of 50?",
+      "choices": {
+        "choice1": "5",
+        "choice2": "10",
+        "choice3": "15",
+        "choice4": "20"
       },
       "correctAnswer": 1,
-      "topic": "Word Problem"
+      "topic": "Percentages"
+    },
+    {
+      "question": "question10",
+      "details": "If a pizza is divided into 8 equal slices and you eat 3, how much is left?",
+      "choices": {
+        "choice1": "5/8",
+        "choice2": "3/8",
+        "choice3": "1/2",
+        "choice4": "1/4"
+      },
+      "correctAnswer": 1,
+      "topic": "Fractions"
     }
   ]
 }
