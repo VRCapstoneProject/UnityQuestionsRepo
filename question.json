@@ -1,20 +1,284 @@
 {
   "questions": [
     {
-      "question": "question1",
-      "details": "5 + 3",
+      "question": "Question 1",
+      "details": "Find the value of 75 – 15 ÷ 3 + 6 × 2?",
       "choices": {
-        "choice1": "7",
-        "choice2": "8",
-        "choice3": "9",
-        "choice4": "6"
+        "choice1": "32",
+        "choice2": "52",
+        "choice3": "82",
+        "choice4": "152"
       },
-      "correctAnswer": 2,
-      "topic": "Addition"
+      "correctAnswer": 3,
+      "topic": "Arithmetic Operation"
     },
     {
-      "question": "question2",
-      "details": "9 - 4",
+      "question": "Question 2",
+      "details": "Find the value of 5/6 × 3/4",
+      "choices": {
+        "choice1": "1/3",
+        "choice2": "4/5",
+        "choice3": "5/8",
+        "choice4": "9/10"
+      },
+      "correctAnswer": 3,
+      "topic": "Fractions"
+    },
+    {
+      "question": "Question 3",
+      "details": "Find the product of 20/3 and 1/12",
+      "choices": {
+        "choice1": "5/9",
+        "choice2": "7/12",
+        "choice3": "1(4/5)",
+        "choice4": "6(2/3)"
+      },
+      "correctAnswer": 1,
+      "topic": "Fractions"
+    },
+    {
+      "question": "Question 4",
+      "details": "Find the value of 4/9 ÷ 6",
+      "choices": {
+        "choice1": "2/27",
+        "choice2": "3/8",
+        "choice3": "8/3",
+        "choice4": "27/2"
+      },
+      "correctAnswer": 1,
+      "topic": "Fractions"
+    },
+    {
+      "question": "Question 5",
+      "details": "Huiyu's age is 7/4 times of Raj what is the ratio of Raj's to Huiyi's age?",
+      "choices": {
+        "choice1": "4:7",
+        "choice2": "7:4",
+        "choice3": "4:3",
+        "choice4": "3:4"
+      },
+      "correctAnswer": 1,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 6",
+      "details": "Find the edge length of a cube with a volume of 216 cm³.",
+      "choices": {
+        "choice1": "108",
+        "choice2": "72",
+        "choice3": "36",
+        "choice4": "6"
+      },
+      "correctAnswer": 4,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 7",
+      "details": "Which of the following equals 31.02 × 400?",
+      "choices": {
+        "choice1": "3.102 x 4 x 10",
+        "choice2": "3.102 x 4000",
+        "choice3": "310.2 x 40 x 40",
+        "choice4": "310.2 x 4000"
+      },
+      "correctAnswer": 2,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 8",
+      "details": "What percentage of a 40-student class are boys (10 boys, 30 girls)?",
+      "choices": {
+        "choice1": "25%",
+        "choice2": "33.3%",
+        "choice3": "50%",
+        "choice4": "75%"
+      },
+      "correctAnswer": 1,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 9",
+      "details": "Find the original price of a watch that costs $52 after a 20% discount.",
+      "choices": {
+        "choice1": "$54.60",
+        "choice2": "$65",
+        "choice3": "$208",
+        "choice4": "$260"
+      },
+      "correctAnswer": 2,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 10",
+      "details": "Find the value of 2.04 ÷ 30",
+      "choices": {
+        "choice1": "0.806",
+        "choice2": "0.68",
+        "choice3": "0.608",
+        "choice4": "0.068"
+      },
+      "correctAnswer": 4,
+      "topic": "Arithmetic Operation"
+    },
+    {
+      "question": "Question 11",
+      "details": "Find the ratio of women to men at a party with 9 men and 30 adults.",
+      "choices": {
+        "choice1": "3 : 7",
+        "choice2": "3 : 10",
+        "choice3": "7 : 3",
+        "choice4": "10 : 3"
+      },
+      "correctAnswer": 3,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 12",
+      "details": "What percentage of Daniel's savings remained after spending 60% on a toy car and 20% of the rest on a pencil case?",
+      "choices": {
+        "choice1": "8%",
+        "choice2": "12%",
+        "choice3": "20%",
+        "choice4": "32%"
+      },
+      "correctAnswer": 4,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 13",
+      "details": "915,617 = □ x 10,000 + 15 x 1,000 + 6 x 100 + 17 Find the value of □",
+      "choices": {
+        "choice1": "90",
+        "choice2": "80",
+        "choice3": "70",
+        "choice4": "100"
+      },
+      "correctAnswer": 1,
+      "topic": "Equations"
+    },
+    {
+      "question": "Question 14",
+      "details": "Find the value of (130 – 80 ÷ 2) – 15 × 4",
+      "choices": {
+        "choice1": "20",
+        "choice2": "30",
+        "choice3": "35",
+        "choice4": "40"
+      },
+      "correctAnswer": 1,
+      "topic": "Arithmetic Operation"
+    },
+    {
+      "question": "Question 15",
+      "details": "Find the value of 2/3 - 1/4",
+      "choices": {
+        "choice1": "6/12",
+        "choice2": "7/12",
+        "choice3": "5/12",
+        "choice4": "1/12"
+      },
+      "correctAnswer": 3,
+      "topic": "Fractions"
+    },
+    {
+      "question": "Question 16",
+      "details": "Fine the value of 4(1/8) × 8",
+      "choices": {
+        "choice1": "31",
+        "choice2": "34",
+        "choice3": "33",
+        "choice4": "32"
+      },
+      "correctAnswer": 3,
+      "topic": "Fractions"
+    },
+    {
+      "question": "Question 17",
+      "details": "Find the simplest ratio of 8 minutes to 1 hour.",
+      "choices": {
+        "choice1": "2 : 15",
+        "choice2": "3 : 18",
+        "choice3": "4 : 30",
+        "choice4": "8 : 60"
+      },
+      "correctAnswer": 1,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 18",
+      "details": "Find the full volume of water in a 7 × 4 × 2 m tank",
+      "choices": {
+        "choice1": "44 m3",
+        "choice2": "72 m3",
+        "choice3": "56 m3",
+        "choice4": "48 m3"
+      },
+      "correctAnswer": 3,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 19",
+      "details": "Find the mass of each packet if Jenny packed 7 kg of sugar into 8 equal packets.",
+      "choices": {
+        "choice1": "0.88",
+        "choice2": "0.72",
+        "choice3": "0.66",
+        "choice4": "0.76"
+      },
+      "correctAnswer": 1,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 20",
+      "details": "What fraction of Rou Li's money did he spend if he spent 20% on chocolates and 60% on candies?",
+      "choices": {
+        "choice1": "3/4",
+        "choice2": "4/5",
+        "choice3": "4/8",
+        "choice4": "4/9"
+      },
+      "correctAnswer": 2,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 21",
+      "details": "if 45 : 10 : 35 = 27 : 6 : □ Find the value of □.",
+      "choices": {
+        "choice1": "23",
+        "choice2": "24",
+        "choice3": "22",
+        "choice4": "21"
+      },
+      "correctAnswer": 4,
+      "topic": "Equations"
+    },
+    {
+      "question": "Question 22",
+      "details": "What percentage discount did Customer Y receive if they paid $570 for a watch originally priced like Customer X's $480 watch with a 20% discount?",
+      "choices": {
+        "choice1": "3%",
+        "choice2": "4%",
+        "choice3": "5%",
+        "choice4": "6%"
+      },
+      "correctAnswer": 3,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 23",
+      "details": "How many boys were in the group if the average mass of 6 girls was 44 kg, the average mass of the boys was 37 kg, and the overall average mass was 40 kg?",
+      "choices": {
+        "choice1": "6",
+        "choice2": "7",
+        "choice3": "8",
+        "choice4": "9"
+      },
+      "correctAnswer": 3,
+      "topic": "Word Problems"
+    },
+    {
+      "question": "Question 24",
+      "details": "How many boxes can be filled with 5 liters of milk, each measuring 2x5x10 cm?",
       "choices": {
         "choice1": "3",
         "choice2": "4",
@@ -22,103 +286,43 @@
         "choice4": "6"
       },
       "correctAnswer": 3,
-      "topic": "Subtraction"
+      "topic": "Word Problems"
     },
     {
-      "question": "question3",
-      "details": "2 × 6",
+      "question": "Question 25",
+      "details": "Emily planted spinach 9/25 in her garden, tomatoes on 0.41, and wheat in the remaining area. What decimal fraction is the wheat area?",
       "choices": {
-        "choice1": "8",
-        "choice2": "10",
-        "choice3": "12",
-        "choice4": "14"
-      },
-      "correctAnswer": 3,
-      "topic": "Multiplication"
-    },
-    {
-      "question": "question4",
-      "details": "16 ÷ 4",
-      "choices": {
-        "choice1": "3",
-        "choice2": "5",
-        "choice3": "4",
-        "choice4": "6"
-      },
-      "correctAnswer": 3,
-      "topic": "Division"
-    },
-    {
-      "question": "question5",
-      "details": "3/4 + 1/4",
-      "choices": {
-        "choice1": "1",
-        "choice2": "3/4",
-        "choice3": "4/4",
-        "choice4": "1/2"
-      },
-      "correctAnswer": 3,
-      "topic": "Fractions"
-    },
-    {
-      "question": "question6",
-      "details": "7 + 2 × 3",
-      "choices": {
-        "choice1": "27",
-        "choice2": "13",
-        "choice3": "21",
-        "choice4": "9"
+        "choice1": "0.20",
+        "choice2": "0.25",
+        "choice3": "0.15",
+        "choice4": "0.30"
       },
       "correctAnswer": 2,
-      "topic": "Order of Operations"
+      "topic": "Word Problems"
     },
     {
-      "question": "question7",
-      "details": "Find the missing number: 5 + ? = 12",
+      "question": "Question 26",
+      "details": "How many candies did Nam originally have if sharing 3 each leaves 11, and sharing 5 each leaves 3 friends without any?",
       "choices": {
-        "choice1": "5",
-        "choice2": "6",
-        "choice3": "7",
-        "choice4": "8"
+        "choice1": "44",
+        "choice2": "55",
+        "choice3": "66",
+        "choice4": "33"
       },
-      "correctAnswer": 3,
-      "topic": "Algebra"
+      "correctAnswer": 2,
+      "topic": "Word Problems"
     },
     {
-      "question": "question8",
-      "details": "If a square has a side length of 4, what is its area?",
+      "question": "Question 27",
+      "details": "If 2 + 0.5 + 0.06 + 0.002 = a and 2+0.0+0.01+0.009=b, what is the difference between a and b?",
       "choices": {
-        "choice1": "8",
-        "choice2": "12",
-        "choice3": "16",
-        "choice4": "20"
-      },
-      "correctAnswer": 3,
-      "topic": "Geometry"
-    },
-    {
-      "question": "question9",
-      "details": "What is 10% of 50?",
-      "choices": {
-        "choice1": "5",
-        "choice2": "10",
-        "choice3": "15",
-        "choice4": "20"
+        "choice1": "0.543",
+        "choice2": "0.522",
+        "choice3": "0.455",
+        "choice4": "0.442"
       },
       "correctAnswer": 1,
-      "topic": "Percentages"
-    },
-    {
-      "question": "question10",
-      "details": "If a pizza is divided into 8 equal slices and you eat 3, how much is left?",
-      "choices": {
-        "choice1": "5/8",
-        "choice2": "3/8",
-        "choice3": "1/2",
-        "choice4": "1/4"
-      },
-      "correctAnswer": 1,
-      "topic": "Fractions"
+      "topic": "Equations"
     }
   ]
 }
