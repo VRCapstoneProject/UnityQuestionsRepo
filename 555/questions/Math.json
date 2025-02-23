@@ -2,26 +2,14 @@
   "questions": [
     {
       "question": "Question 1",
-      "details": "dwqdqwdqwd",
+      "details": "4+5",
       "choices": {
-        "choice1": "wwww",
-        "choice2": "dddddd",
-        "choice3": "wooooo",
-        "choice4": "ggggggg"
+        "choice1": "6",
+        "choice2": "7",
+        "choice3": "8",
+        "choice4": "9"
       },
       "correctAnswer": 3,
-      "topic": "math"
-    },
-    {
-      "question": "Question 2",
-      "details": "1+1",
-      "choices": {
-        "choice1": "2",
-        "choice2": "3",
-        "choice3": "1",
-        "choice4": "4"
-      },
-      "correctAnswer": 2,
       "topic": "Addition"
     }
   ]
