@@ -119,6 +119,126 @@
       },
       "correctAnswer": 4,
       "topic": "Estimation"
+    },
+    {
+      "question": "Question 11",
+      "details": "What is the smallest whole number that is 5,000 when rounded to the nearest thousand",
+      "choices": {
+        "choice1": "4,500",
+        "choice2": "4,499",
+        "choice3": "4,450",
+        "choice4": "4,599"
+      },
+      "correctAnswer": 1,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 12",
+      "details": "What is the greatest whole number that is 5,000 when rounded to the nearest thousand",
+      "choices": {
+        "choice1": "5,199",
+        "choice2": "5,299",
+        "choice3": "5,399",
+        "choice4": "5,499"
+      },
+      "correctAnswer": 4,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 13",
+      "details": "What is the smallest whole number that is 20,000 when rounded to the nearest ten thousand",
+      "choices": {
+        "choice1": "19,000",
+        "choice2": "17,000",
+        "choice3": "14,000",
+        "choice4": "12,000"
+      },
+      "correctAnswer": 3,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 14",
+      "details": "What is the greatest whole number that is 20,000 when rounded to the nearest ten thousand",
+      "choices": {
+        "choice1": "24,999",
+        "choice2": "25,999",
+        "choice3": "27,999",
+        "choice4": "29,999"
+      },
+      "correctAnswer": 1,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 15",
+      "details": "What is the smallest whole number that is 1,000,000 when rounded to the nearest million",
+      "choices": {
+        "choice1": "1,000,001",
+        "choice2": "999,000",
+        "choice3": "666,000",
+        "choice4": "500,000"
+      },
+      "correctAnswer": 4,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 16",
+      "details": "What is the greatest whole number that is 1,000,000 when rounded to the nearest million",
+      "choices": {
+        "choice1": "1,699,999",
+        "choice2": "1,499,999",
+        "choice3": "1,199,999",
+        "choice4": "1,000,001"
+      },
+      "correctAnswer": 2,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 17",
+      "details": "Estimate the sum of 1,889 and 2,989",
+      "choices": {
+        "choice1": "2,000 + 2,000 = 4,000",
+        "choice2": "2,000 + 3,000 = 5,000",
+        "choice3": "1,000 + 2,000 = 3,000",
+        "choice4": "1,000 + 3,000 = 4,000"
+      },
+      "correctAnswer": 2,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 18",
+      "details": "Estimate the difference of 24,101 and 12,999",
+      "choices": {
+        "choice1": "25,000 - 12,000 = 13,000",
+        "choice2": "24,000 - 12,000 = 12,000",
+        "choice3": "24,000 - 13,000 = 11,000",
+        "choice4": "24,000 - 11,000 = 13,000"
+      },
+      "correctAnswer": 3,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 19",
+      "details": "Estimate the product of 315 and 41",
+      "choices": {
+        "choice1": "300 x 50 = 15,000",
+        "choice2": "320 x 50 = 16,000 3",
+        "choice3": "20 x 40 = 12,800",
+        "choice4": "315 x 40 = 12,600"
+      },
+      "correctAnswer": 3,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 20",
+      "details": "Estimate the result of 481 divided by 24",
+      "choices": {
+        "choice1": "480÷20 = 24",
+        "choice2": "400÷20 = 20",
+        "choice3": "500÷25 = 20",
+        "choice4": "480÷24 = 20"
+      },
+      "correctAnswer": 1,
+      "topic": "Estimation"
     }
   ]
 }
