@@ -1,0 +1,28 @@
+{
+  "questions": [
+    {
+      "question": "Question 1",
+      "details": "Which number is 58,000,000 when rounded to the nearest million?",
+      "choices": {
+        "choice1": "57,422,000",
+        "choice2": "57,449,000",
+        "choice3": "57,651,000",
+        "choice4": "57,499,000"
+      },
+      "correctAnswer": 3,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 2",
+      "details": "Round number 79,000 to the nearest ten thousand",
+      "choices": {
+        "choice1": "79,000",
+        "choice2": "80,000",
+        "choice3": "89,000",
+        "choice4": "90,000"
+      },
+      "correctAnswer": 2,
+      "topic": "Estimation"
+    }
+  ]
+}
