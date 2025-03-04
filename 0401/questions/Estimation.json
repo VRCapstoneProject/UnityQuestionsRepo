@@ -23,6 +23,102 @@
       },
       "correctAnswer": 2,
       "topic": "Estimation"
+    },
+    {
+      "question": "Question 3",
+      "details": "Rounding number 3,456,786 to the nearest hundred thousand.",
+      "choices": {
+        "choice1": "3,456,786",
+        "choice2": "3,450,000",
+        "choice3": "3,400,000",
+        "choice4": "3,500,000"
+      },
+      "correctAnswer": 4,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 4",
+      "details": "Which number is 58,000,000 when rounded to the nearest million?",
+      "choices": {
+        "choice1": "57,422,000",
+        "choice2": "57,449,000",
+        "choice3": "57,651,000",
+        "choice4": "57,499,000"
+      },
+      "correctAnswer": 3,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 5",
+      "details": "Which number is 200 when rounded to the nearest hundred?",
+      "choices": {
+        "choice1": "120",
+        "choice2": "140",
+        "choice3": "240",
+        "choice4": "250"
+      },
+      "correctAnswer": 3,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 6",
+      "details": "Which number is 1,000 when rounded to the nearest thousand?",
+      "choices": {
+        "choice1": "1,500",
+        "choice2": "1,499",
+        "choice3": "2,400",
+        "choice4": "1,600"
+      },
+      "correctAnswer": 2,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 7",
+      "details": "Which number is 1,850 when rounded to the nearest ten?",
+      "choices": {
+        "choice1": "1,815",
+        "choice2": "1,851",
+        "choice3": "1,844",
+        "choice4": "1,855"
+      },
+      "correctAnswer": 2,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 8",
+      "details": "Which number is 700 when rounded to the nearest hundred?",
+      "choices": {
+        "choice1": "520",
+        "choice2": "540",
+        "choice3": "640",
+        "choice4": "650"
+      },
+      "correctAnswer": 4,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 9",
+      "details": "Which number is 7,600,000 when rounded to the nearest hundred thousand?",
+      "choices": {
+        "choice1": "7,622,000",
+        "choice2": "7,649,000",
+        "choice3": "7,651,000",
+        "choice4": "7,649,000"
+      },
+      "correctAnswer": 3,
+      "topic": "Estimation"
+    },
+    {
+      "question": "Question 10",
+      "details": "How many hundreds in 100,000?",
+      "choices": {
+        "choice1": "1 hundred",
+        "choice2": "10 hundreds",
+        "choice3": "100 hundreds",
+        "choice4": "1000 hundreds"
+      },
+      "correctAnswer": 4,
+      "topic": "Estimation"
     }
   ]
 }
