@@ -44,6 +44,11 @@
             "name": "jennie",
             "score": 0,
             "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":2,\"scoreRatio\":\"2/2\"},{\"topic\":\"Subtraction\",\"score\":2,\"scoreRatio\":\"2/2\"},{\"topic\":\"Multiplication\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Division\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Basic Geometry\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
+        },
+        {
+            "name": "jennie",
+            "score": 0,
+            "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
         }
     ]
 }
