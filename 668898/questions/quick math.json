@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "question": "Question 1",
+      "details": "23+23",
+      "choices": {
+        "choice1": "46",
+        "choice2": "35",
+        "choice3": "45",
+        "choice4": "36"
+      },
+      "correctAnswer": 1,
+      "topic": "Addition"
+    },
+    {
+      "question": "Question 2",
+      "details": "50 - 32",
+      "choices": {
+        "choice1": "45",
+        "choice2": "12",
+        "choice3": "18",
+        "choice4": "28"
+      },
+      "correctAnswer": 3,
+      "topic": "Subtraction"
+    },
+    {
+      "question": "Question 3",
+      "details": "40 x 20",
+      "choices": {
+        "choice1": "800",
+        "choice2": "200",
+        "choice3": "400",
+        "choice4": "420"
+      },
+      "correctAnswer": 1,
+      "topic": "Mutiplication"
+    }
+  ]
+}
