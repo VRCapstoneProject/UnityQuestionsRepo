@@ -2,6 +2,11 @@
     "entries": [
         {
             "name": "phoon",
+            "score": 12,
+            "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/1\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/1\"},{\"topic\":\"Mutiplication\",\"score\":1,\"scoreRatio\":\"1/1\"}]}"
+        },
+        {
+            "name": "phoon",
             "score": 6,
             "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/1\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/1\"}]}"
         }
