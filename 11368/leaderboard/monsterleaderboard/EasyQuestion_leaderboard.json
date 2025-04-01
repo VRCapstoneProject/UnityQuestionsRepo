@@ -109,6 +109,11 @@
             "name": "jennie",
             "score": 0,
             "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
+        },
+        {
+            "name": "phoon",
+            "score": 0,
+            "topicScores": "{\"scores\":[]}"
         }
     ]
 }
