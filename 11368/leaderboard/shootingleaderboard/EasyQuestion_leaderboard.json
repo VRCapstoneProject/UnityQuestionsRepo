@@ -44,6 +44,11 @@
             "name": "siwa",
             "score": 0,
             "topicScores": "{\"scores\":[]}"
+        },
+        {
+            "name": "phoon",
+            "score": 0,
+            "topicScores": "{\"scores\":[]}"
         }
     ]
 }
