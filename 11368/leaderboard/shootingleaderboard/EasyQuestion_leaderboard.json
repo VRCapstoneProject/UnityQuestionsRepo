@@ -79,6 +79,11 @@
             "name": "phoon",
             "score": 0,
             "topicScores": "{\"scores\":[]}"
+        },
+        {
+            "name": "kmitl",
+            "score": 0,
+            "topicScores": "{\"scores\":[]}"
         }
     ]
 }
