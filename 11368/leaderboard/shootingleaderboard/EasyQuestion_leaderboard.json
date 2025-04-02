@@ -86,6 +86,11 @@
             "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
         },
         {
+            "name": "phoon",
+            "score": 0,
+            "topicScores": "{\"scores\":[]}"
+        },
+        {
             "name": "kmitl",
             "score": 0,
             "topicScores": "{\"scores\":[]}"
@@ -96,7 +101,7 @@
             "topicScores": "{\"scores\":[]}"
         },
         {
-            "name": "phoon",
+            "name": "kmitl",
             "score": 0,
             "topicScores": "{\"scores\":[]}"
         }
