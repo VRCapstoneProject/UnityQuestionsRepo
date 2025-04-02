@@ -31,6 +31,11 @@
             "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Multiplication\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Division\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
         },
         {
+            "name": "kmitl",
+            "score": 4,
+            "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Multiplication\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Division\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
+        },
+        {
             "name": "phoon",
             "score": 4,
             "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Multiplication\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Division\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
@@ -71,17 +76,17 @@
             "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
         },
         {
+            "name": "kmitl",
+            "score": 0,
+            "topicScores": "{\"scores\":[]}"
+        },
+        {
             "name": "siwa",
             "score": 0,
             "topicScores": "{\"scores\":[]}"
         },
         {
             "name": "phoon",
-            "score": 0,
-            "topicScores": "{\"scores\":[]}"
-        },
-        {
-            "name": "kmitl",
             "score": 0,
             "topicScores": "{\"scores\":[]}"
         }
