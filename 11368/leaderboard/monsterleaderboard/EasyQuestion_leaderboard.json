@@ -86,6 +86,11 @@
             "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Multiplication\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
         },
         {
+            "name": "kmitl",
+            "score": 4,
+            "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
+        },
+        {
             "name": "siwa",
             "score": 0,
             "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"},{\"topic\":\"Subtraction\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
