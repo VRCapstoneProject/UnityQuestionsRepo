@@ -102,6 +102,16 @@
         },
         {
             "name": "kmitl",
+            "score": 1,
+            "topicScores": "{\"scores\":[{\"topic\":\"Addition\",\"score\":1,\"scoreRatio\":\"1/2\"}]}"
+        },
+        {
+            "name": "kmitl",
+            "score": 0,
+            "topicScores": "{\"scores\":[]}"
+        },
+        {
+            "name": "kmitl",
             "score": 0,
             "topicScores": "{\"scores\":[]}"
         },
@@ -117,11 +127,6 @@
         },
         {
             "name": "phoon",
-            "score": 0,
-            "topicScores": "{\"scores\":[]}"
-        },
-        {
-            "name": "kmitl",
             "score": 0,
             "topicScores": "{\"scores\":[]}"
         }
